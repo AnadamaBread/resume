@@ -1,0 +1,42 @@
+\documentclass[letter,10pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{CJKutf8}
+\usepackage{tabularx}
+\usepackage{array}
+
+\usepackage{TLCresume}
+
+%====================
+% CONTACT INFORMATION
+%====================
+\author{Luis Baez} 
+\def\phone{(843) 340-4534}
+\def\city{Quincy, MA}
+\def\email{luisbisme@gmail.com}
+
+\def\github{AnadamaBread}
+\def\LinkedIn{luis-baez-jr} 
+
+\begin{document}
+\import{sections/}{header}
+\vspace*{10pt}
+
+\section{Work Experience}
+\import{sections/}{experience}
+\vspace*{10pt}
+
+\section{Education}
+\import{sections/}{education}
+\vspace*{10pt}
+
+% \section{Project}
+% \vspace*{3pt}
+% \import{sections/}{project}
+% \vspace*{10pt}
+
+\section{Skills}
+\vspace*{3pt}
+\import{sections/}{skills}
+\vspace*{10pt}
+
+\end{document}
